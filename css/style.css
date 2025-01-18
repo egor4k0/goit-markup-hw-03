@@ -17,6 +17,7 @@ body {
 }
 
 header {
+    border-bottom: 1px solid #e7e9fc;
     padding-top: 25px;
     padding-bottom: 25px;
     width: 1158px;
@@ -37,8 +38,8 @@ img{
 
 .container {
 width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+padding: 0 15px;
+margin: 0 auto;
 }
 
 .header-adress {
@@ -46,6 +47,7 @@ display: flex;
 justify-content: space-between;
 padding-top:24px;
 padding-bottom:24px;
+
 }
 
 .hader-nav {
@@ -268,6 +270,9 @@ font-size:Regular;
     line-height: 14px; 
     letter-spacing: 4%;
 }
+.nav-a{
+    padding: 24px 0
+}
 
 .nav-a:focus {
 color: #404bbf;
@@ -298,4 +303,7 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+}
+.logo{
+    margin-right: 76px;
 }
