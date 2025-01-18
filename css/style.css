@@ -17,11 +17,11 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #e7e9fc;
     padding-top: 25px;
     padding-bottom: 25px;
     width: 1158px;
     margin: 0 auto;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 a {
@@ -37,9 +37,9 @@ img{
 }
 
 .container {
-width: 1158px;
-    padding: 0 15px;
+    width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-adress {
@@ -50,7 +50,7 @@ padding-bottom:24px;
 }
 
 .hader-nav {
-display: flex;
+    display: flex;
     align-items: center;
 }
 
@@ -66,6 +66,7 @@ display: flex;
 }
 
 .nav-a {
+padding: 24px 0;
 letter-spacing: 0.02em;
 font-weight: 500;
 color:#2e2f42;
@@ -151,7 +152,6 @@ display: flex;
     padding-right: 15px;
 }
 .list-list{
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
 
