@@ -152,9 +152,8 @@ position: absolute;
     padding-right: 15px;
 }
 
- .list-list{
-
-    width: calc((100% - 3 * 24px) / 4 ); 
+ .second-list{
+ width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
