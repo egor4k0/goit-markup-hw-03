@@ -146,17 +146,18 @@ position: absolute;
 }
 
 .feature-list {
-display: flex;
+    display: flex;
     gap: 24px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.list-list{
-    flex-basis: calc((100% - 3 * 24px) / 4)
+.list-list {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .feature-title {
-font-weight: 500;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
