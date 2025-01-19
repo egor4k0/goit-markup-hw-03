@@ -152,11 +152,10 @@ position: absolute;
     padding-right: 15px;
 }
 
+ .list-list{
 
- .first-item {
-    flex-basis: calc((100% - 72px) / 4);
- }
- 
+    width: calc((100% - 3 * 24px) / 4 ); 
+}
 
 .feature-title {
     font-weight: 500;
