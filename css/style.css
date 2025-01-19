@@ -151,23 +151,12 @@ position: absolute;
 .feature-list {
     display: flex;
     gap: 24px;
-    margin: 120px 0;
-max-width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
  .second-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-width: calc((100% -72px) / 4);
+width: calc((100% - 72px) / 4);
 
 }
-
-
 
 .feature-title {
     font-weight: 500;
