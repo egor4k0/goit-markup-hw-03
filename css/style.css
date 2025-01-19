@@ -152,7 +152,7 @@ position: absolute;
     padding-right: 15px;
 }
 
- .second-list{
+ .second-list .list-list{
  width: calc((100% - 72px) / 4);
 }
 
