@@ -152,6 +152,9 @@ display: flex;
     padding-right: 15px;
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
+.list-list:first-child{
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
 .list-list{
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
@@ -228,7 +231,6 @@ font-size: 16px;
 }
 
 .portfolio-h {
-margin-bottom: 72px;
     max-width: 218px;
     margin: 0 auto;
     font-size: 36px;
@@ -237,6 +239,7 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-block {
