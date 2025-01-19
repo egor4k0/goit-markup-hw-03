@@ -150,11 +150,8 @@ display: flex;
     gap: 24px;
     padding-left: 15px;
     padding-right: 15px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
 }
-.list-list:first-child{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-}
+
 .list-list{
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
