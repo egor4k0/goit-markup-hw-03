@@ -152,8 +152,14 @@ position: absolute;
     padding-right: 15px;
 }
 
- .second-list .list-list{
+ .second-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
 width: calc((100% - 3 * 24px) / 4);
+
 }
 
 
