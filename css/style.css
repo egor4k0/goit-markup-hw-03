@@ -155,6 +155,12 @@ position: absolute;
 .list-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+ .first-item {
+     width: calc((100% - 3 * 24px) / 4);
+ }
+ .list-list:first-child {
+     width: calc((100% - 3 * 24px) / 4);
+ }
 
 .feature-title {
     font-weight: 500;
