@@ -93,10 +93,6 @@ padding: 188px 0;
 
 }
 
-.title-wrapper {
-
-}
-
 .title-h {
     margin-left: auto;
     margin-right: auto;
@@ -342,18 +338,18 @@ font-family: Realeway, sans-serif;
     padding: 0px;
 }
 .logo{
-    display: inline-block;
+
     margin-right: 76px;
     font-family:Realeway, sans-serif;
     font-weight: 700;
     line-height: 1.5;
-     width: 115px;
-     height: 24px;
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     align-items: center;
-     padding: 0px;
+    width: 115px;
+    height: 24px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    display: inline-block;
 }
 footer a{
     display: inline-block;
