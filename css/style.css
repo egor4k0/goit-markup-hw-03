@@ -342,6 +342,8 @@ font-family: Realeway, sans-serif;
     padding: 0px;
 }
 .logo{
+    display: inline-block;
+    margin-right: 76px;
     font-family:Realeway, sans-serif;
     font-weight: 700;
     line-height: 1.5;
